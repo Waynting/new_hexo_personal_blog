@@ -29,25 +29,13 @@ export default function ProjectsPage() {
       featured: true
     },
     {
-      title: "Knowledge-Retrieval Agent",
-      company: "ABConvert",
-      description: "Internal Q&A RAG agent for company documentation",
-      longDescription: "Node.js + RAG + SQL. Internal Q&A agent answering from company docs using LoT prompting, retrieval filters, grounding/guardrails. Improved doc discoverability and onboarding for team members.",
-      technologies: ["Node.js", "RAG", "SQL", "OpenAI API", "Vector DB"],
-      links: {
-        github: "#" // Placeholder as actual link not provided
-      },
-      icon: <Database className="w-5 h-5" />,
-      featured: true
-    },
-    {
       title: "Waynspace - Personal Website",
-      description: "Headless CMS blog platform with modern web stack",
-      longDescription: "Next.js + WordPress (REST API). Migrated monolithic WordPress blog into a headless CMS. Used REST API to fetch pages and blog posts, integrated with Next.js frontend for faster rendering, image optimization, and flexible deployment on Vercel.",
-      technologies: ["Next.js", "TypeScript", "WordPress API", "Tailwind CSS", "shadcn/ui"],
+      description: "Modern blog platform with MDX and Cloudflare R2",
+      longDescription: "Next.js 16 + MDX + Cloudflare R2. Built a modern blog platform with static site generation, automated image processing (WebP conversion), and R2 CDN integration. Features include dynamic sitemap, SEO optimization, Google Analytics 4, and build-time local image processing with automatic upload to R2.",
+      technologies: ["Next.js 16", "TypeScript", "MDX", "Cloudflare R2", "Tailwind CSS v4", "Sharp", "AWS SDK"],
       links: {
         live: "https://waynspace.com",
-        github: "https://github.com/Waynting/waynspace_website"
+        github: "https://github.com/Waynting/new_hexo_personal_blog"
       },
       icon: <Globe className="w-5 h-5" />,
       featured: true
@@ -138,7 +126,7 @@ export default function ProjectsPage() {
                 description: "Experienced in server-side development and API design, familiar with database design and system architecture planning. Focused on building stable and scalable backend services.",
                 skills: ["Node.js", "Python", "REST API", "GraphQL", "PostgreSQL", "MongoDB", "Redis"],
                 projects: [
-                  { name: "WordPress Headless CMS", url: "/posts" },
+                  { name: "MDX Blog with R2 CDN", url: "/posts" },
                   { name: "RAG Knowledge Agent", url: "#" }
                 ],
                 gradient: ""
