@@ -34,6 +34,12 @@ export const mainNavigation: NavItem[] = [
     icon: '📷',
     description: 'Photo Gallery'
   },
+  {
+    name: 'Camera Float',
+    href: '/camera-float-ntu',
+    icon: '📸',
+    description: 'Camera Float Project - NTU'
+  },
 ];
 
 // Quick actions

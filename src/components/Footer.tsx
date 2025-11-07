@@ -34,10 +34,17 @@ export default function Footer() {
             <h3 className="text-lg font-semibold" style={{ color: 'var(--foreground)' }}>Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/projects" className="text-sm opacity-80 hover:opacity-100 transition-all duration-200" style={{ 
-                  color: 'var(--foreground)' 
+                <Link href="/projects" className="text-sm opacity-80 hover:opacity-100 transition-all duration-200" style={{
+                  color: 'var(--foreground)'
                 }}>
                   Projects
+                </Link>
+              </li>
+              <li>
+                <Link href="/camera-float-ntu" className="text-sm opacity-80 hover:opacity-100 transition-all duration-200" style={{
+                  color: 'var(--foreground)'
+                }}>
+                  Camera Float NTU
                 </Link>
               </li>
             </ul>

@@ -53,13 +53,13 @@ export default function ProjectsPage() {
       icon: <Code className="w-5 h-5" />
     },
     {
-      title: "Camera Drift NTU",
+      title: "Camera Float NTU",
       role: "Organizer/Photographer",
       description: "Cross-campus photo program with exhibition platform",
       longDescription: "Designed and ran a cross-campus photo program including logistics, onboarding, and digital exhibition. Built web platform to showcase participant work and stories. Sharpened composition + accessibility + storytelling skills used in UI work.",
-      technologies: ["Photography", "Web Design", "Community Building", "Exhibition Curation"],
+      technologies: ["Photography", "Web Design", "Community Building", "Exhibition Curation", "Next.js"],
       links: {
-        live: "/camera-drift-ntu"
+        live: "/camera-float-ntu"
       },
       icon: <Camera className="w-5 h-5" />
     }
@@ -187,7 +187,7 @@ export default function ProjectsPage() {
                 skills: ["Street Photography", "Portrait Photography", "Landscape Photography", "Lightroom", "Photoshop", "Color Grading", "Composition"],
                 projects: [
                   { name: "Photography Portfolio", url: "/capture-light" },
-                  { name: "Camera Drift Project", url: "/camera-drift-ntu" }
+                  { name: "Camera Float Project", url: "/camera-float-ntu" }
                 ],
                 gradient: ""
               }}
