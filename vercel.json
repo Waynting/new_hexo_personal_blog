@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/camera-drift-ntu",
-      "destination": "https://camera-float-ntu.waynspace.com/camera-drift-ntu"
+      "destination": "https://camera-float-ntu.waynspace.com"
     },
     {
       "source": "/camera-drift-ntu/:path*",
-      "destination": "https://camera-float-ntu.waynspace.com/camera-drift-ntu/:path*"
+      "destination": "https://camera-float-ntu.waynspace.com/:path*"
     }
   ]
 }
