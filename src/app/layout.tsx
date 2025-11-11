@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import BackToTop from '@/components/back-to-top';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Analytics } from '@/components/Analytics';
+import { ServiceWorkerCleanup } from '@/components/ServiceWorkerCleanup';
 import { defaultMetadata } from '@/config/seo';
 
 export const metadata: Metadata = defaultMetadata;
@@ -35,6 +36,7 @@ export default function RootLayout({
           </div>
         </ThemeProvider>
         <Analytics />
+        <ServiceWorkerCleanup />
       </body>
     </html>
   );

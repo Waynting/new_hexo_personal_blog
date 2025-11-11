@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
         hostname: 'waynspace.com',
       },
     ],
+    // 添加 quality 90 到配置中
+    qualities: [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 90],
   },
 
   // 動態生成重定向規則

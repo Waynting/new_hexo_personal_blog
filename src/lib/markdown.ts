@@ -69,15 +69,29 @@ export function calculateReadTime(content: string): string {
 }
 
 export function formatDate(dateString: string): string {
-  const date = new Date(dateString);
-  const options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'Asia/Taipei'
-  };
+  // 确保 dateString 是有效的日期字符串
+  if (!dateString) return '';
   
-  return date.toLocaleDateString('zh-TW', options);
+  const date = new Date(dateString);
+  
+  // 检查日期是否有效
+  if (isNaN(date.getTime())) {
+    return dateString;
+  }
+  
+  // 使用固定的格式，避免服务器和客户端不一致
+  // 格式：YYYY年MM月DD日
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  
+  // 使用固定的月份名称映射
+  const monthNames = [
+    '1月', '2月', '3月', '4月', '5月', '6月',
+    '7月', '8月', '9月', '10月', '11月', '12月'
+  ];
+  
+  return `${year}年${monthNames[month - 1]}${day}日`;
 }
 
 export function generateSlug(title: string): string {

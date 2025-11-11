@@ -120,7 +120,7 @@ export default function PostCard({
         minimal ? "justify-center" : "flex-1"
       )}>
         <CardHeader className={cn(
-          "pb-3",
+          "pb-0 space-y-0",
           minimal && "pt-0"
         )}>
           <Badge 
@@ -144,7 +144,7 @@ export default function PostCard({
                 fontWeight === "normal"
                   ? "line-clamp-2 font-medium tracking-normal"
                   : "font-semibold leading-tight tracking-tight",
-                "hover:text-primary transition-colors"
+                "hover:text-primary transition-colors mb-0"
               )}
             >
               {post.title}
@@ -152,7 +152,7 @@ export default function PostCard({
           </Link>
         </CardHeader>
 
-        <CardContent className="pb-3">
+        <CardContent className="pb-3 pt-0 mt-0">
           {/* Excerpt */}
           {post.excerpt && !minimal && (
             <Link href={`/blog/${post.slug}`}>
@@ -181,7 +181,10 @@ export default function PostCard({
               <span className="truncate">{post.author.name}</span>
             </div>
             <span className="text-xs">•</span>
-            <time className="truncate" dateTime={post.date}>
+            <time 
+              className="truncate" 
+              dateTime={post.date || ''}
+            >
               {formatDate(post.date)}
             </time>
             <span className="text-xs">•</span>

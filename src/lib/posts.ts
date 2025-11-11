@@ -5,6 +5,21 @@ import { globby } from 'globby'
 import { markdownToHtml, extractExcerpt, calculateReadTime } from './markdown'
 import { Post, Category } from '@/types/blog'
 
+// 标准化日期格式为 ISO 8601
+function normalizeDate(date: any): string {
+  if (!date) return new Date().toISOString()
+  
+  try {
+    const dateObj = new Date(date)
+    if (isNaN(dateObj.getTime())) {
+      return new Date().toISOString()
+    }
+    return dateObj.toISOString()
+  } catch {
+    return new Date().toISOString()
+  }
+}
+
 // 保持向後兼容的 Post 接口
 export interface PostMetadata {
   slug: string
@@ -77,8 +92,8 @@ export async function getAllPosts(): Promise<Post[]> {
         title: data.title || '',
         excerpt,
         content,
-        date: data.date || new Date().toISOString(),
-        modifiedDate: data.modifiedDate || data.date,
+        date: normalizeDate(data.date),
+        modifiedDate: normalizeDate(data.modifiedDate || data.date),
         category: mainCategory,
         tags: Array.isArray(data.tags) ? data.tags : [],
         author: {
@@ -179,6 +194,38 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   }
 }
 
+// 按时间分组文章（客户端使用）
+export function groupPostsByTime(posts: Post[]): Record<string, Record<string, Post[]>> {
+  const groups: Record<string, Record<string, Post[]>> = {};
+
+  posts.forEach(post => {
+    const date = new Date(post.date);
+    if (isNaN(date.getTime())) return;
+
+    const year = date.getFullYear().toString();
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+
+    if (!groups[year]) {
+      groups[year] = {};
+    }
+    if (!groups[year][month]) {
+      groups[year][month] = [];
+    }
+    groups[year][month].push(post);
+  });
+
+  // 对每个月份的文章按日期排序（最新的在前）
+  Object.keys(groups).forEach(year => {
+    Object.keys(groups[year]).forEach(month => {
+      groups[year][month].sort((a, b) => 
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+    });
+  });
+
+  return groups;
+}
+
 // 获取所有年份
 export async function getAllYears(): Promise<string[]> {
   const files = await globby(['**/*.mdx'], { cwd: postsDirectory })
@@ -235,8 +282,8 @@ export async function getPostsByYearMonth(year: string, month: string): Promise<
         title: data.title || '',
         excerpt,
         content,
-        date: data.date || new Date().toISOString(),
-        modifiedDate: data.modifiedDate || data.date,
+        date: normalizeDate(data.date),
+        modifiedDate: normalizeDate(data.modifiedDate || data.date),
         category: mainCategory,
         tags: Array.isArray(data.tags) ? data.tags : [],
         author: {

@@ -23,7 +23,7 @@ export default async function PostsPage() {
   
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section - 仅在非文件浏览器视图显示 */}
       <Section className="py-12 sm:py-16 md:py-20 bg-background">
         <SectionHeader className="text-center px-4">
           <SectionTitle className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">

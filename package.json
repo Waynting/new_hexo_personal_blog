@@ -11,6 +11,7 @@
     "images:publish": "node scripts/publish-images-to-r2.mjs",
     "images:update": "node scripts/update-content-images.mjs",
     "images:verify": "node scripts/verify-r2-images.mjs",
+    "images:delete-tseng": "node scripts/delete-tseng-photos.mjs",
     "test:r2": "node scripts/test-r2-config.mjs"
   },
   "dependencies": {
