@@ -12,6 +12,7 @@ export interface Post {
   seo: SEOMeta;
   featuredImage?: string;
   coverImage?: string;
+  filePath?: string;
 }
 
 export interface Author {
