@@ -1,12 +1,16 @@
 ---
-title: "網頁端照片整理工具"
-date: Thu Jul 03 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 網頁端照片整理工具
+date: 'Thu Jul 03 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "tech-memo"
+  - tech-memo
 categories:
-  - "tech-notes"
-coverImage: "https://img.waynspace.com/2025/07/photo-select-tool-note/螢幕擷取畫面-2025-07-03-225732.webp"
-slug: "photo-select-tool-note"
+  - tech-notes
+coverImage: >-
+  https://img.waynspace.com/2025/07/photo-select-tool-note/螢幕擷取畫面-2025-07-03-225732.webp
+slug: photo-select-tool-note
+summary: >-
+  20250703（四） Github Repo：https://github.com/Waynting/photo-select-tool  
+  小工具連結：https://waynspace.
 ---
 
 

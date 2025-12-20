@@ -1,12 +1,11 @@
 ---
-title: "Eternal Sunshine of the Spotless Mind（王牌冤家）觀後感"
-date: Tue May 28 2024 08:00:00 GMT+0800 (Taiwan Standard Time)
-tags:
-
-categories:
-
-coverImage: ""
-slug: "eternal-sunshine-of-the-spotless-mind（王牌冤家）觀後感"
+title: Eternal Sunshine of the Spotless Mind（王牌冤家）觀後感
+date: 'Tue May 28 2024 08:00:00 GMT+0800 (Taiwan Standard Time)'
+tags: null
+categories: null
+coverImage: ''
+slug: eternal-sunshine-of-the-spotless-mind（王牌冤家）觀後感
+summary: '以下有雷，並且很大部分的帶入的自己的想法與感受。 [](https://blogger.googleusercontent.'
 ---
 
 

@@ -1,13 +1,18 @@
 ---
-title: "第十五屆領導學程申請紀錄"
-date: Sun Jun 15 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 第十五屆領導學程申請紀錄
+date: 'Sun Jun 15 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "uni-life"
-  - "self-growth"
+  - uni-life
+  - self-growth
 categories:
-  - "ntu-life"
-coverImage: "https://img.waynspace.com/2025/06/leardership-application/IMG_20250613_091402.webp"
-slug: "leardership-application"
+  - ntu-life
+coverImage: >-
+  https://img.waynspace.com/2025/06/leardership-application/IMG_20250613_091402.webp
+slug: leardership-application
+summary: >-
+  <figure> <figcaption> 當天在門口的白板 </figcaption> </figure> 自我介紹
+  大家好，我是要升上資管二的劉威廷，剛申請上領導學程（我是第十五屆的）。   於此記錄下自己申請的過程，希望能幫助到未來要申請的人。
+  我的Medium也有同步發 領導學程是什麼？
 ---
 
 

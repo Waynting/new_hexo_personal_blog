@@ -1,13 +1,17 @@
 ---
-title: "科學班生活-個別科學研究"
-date: Sat Jul 12 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 科學班生活-個別科學研究
+date: 'Sat Jul 12 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "daily-notes"
-  - "self-growth"
+  - daily-notes
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2025/07/science-class-individual-research/1120910-1.webp"
-slug: "science-class-individual-research"
+  - science-class-journal
+coverImage: >-
+  https://img.waynspace.com/2025/07/science-class-individual-research/1120910-1.webp
+slug: science-class-individual-research
+summary: >-
+  事實上，通過資格考之後，高三除了到合作大學修課，另一個非常重要的任務就是——到實驗室進行個別科學研究。   <figure> <figcaption>
+  在學手套箱的使用 </figcaption> </figure> <figure> <figcaption> 為了放學習歷程拍的 </figcapt...
 ---
 
 

@@ -1,12 +1,16 @@
 ---
-title: "科學班生活-資格考規則介紹與心得"
-date: Tue Jul 01 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 科學班生活-資格考規則介紹與心得
+date: 'Tue Jul 01 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "self-growth"
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2025/07/science-class-qualification-exam/1120617-10.webp"
-slug: "science-class-qualification-exam"
+  - science-class-journal
+coverImage: >-
+  https://img.waynspace.com/2025/07/science-class-qualification-exam/1120617-10.webp
+slug: science-class-qualification-exam
+summary: >-
+  <figure> <figcaption> 這張照片很適合這個系列，感謝我同學的賣力演出 </figcaption> </figure>
+  為了測驗科學班學生是熟練掌握高中範圍的內容，於是在科學班學生高二升高三的暑假，我們會進行一場名為「資格考」的測驗。 報考資格 1.
 ---
 
 

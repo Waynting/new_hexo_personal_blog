@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Section, SectionContent } from '@/components/ui/section'
 import { formatDate } from '@/lib/markdown'
+import { cn } from '@/lib/utils'
 
 export async function generateStaticParams() {
   const posts = await getAllPosts()
@@ -13,6 +14,21 @@ export async function generateStaticParams() {
     // slug 現在是完整路徑格式 YYYY/MM/articleSlug，需要分割成數組供 Next.js 路由使用
     slug: post.slug.split('/'),
   }))
+}
+
+// 獲取分類顏色配置
+function getCategoryColor(categoryName: string): string {
+  const colorMap: Record<string, string> = {
+    // 淺色模式使用純黑色文字確保最高對比度，深色模式保持淺色文字
+    '台大資管生活': 'bg-blue-100 text-black dark:bg-blue-900/30 dark:text-blue-300 border-blue-300 dark:border-blue-700',
+    '科學班生活': 'bg-purple-100 text-black dark:bg-purple-900/30 dark:text-purple-300 border-purple-300 dark:border-purple-700',
+    '攝影筆記': 'bg-green-100 text-black dark:bg-green-900/30 dark:text-green-300 border-green-300 dark:border-green-700',
+    '城市漫步': 'bg-yellow-100 text-black dark:bg-yellow-900/30 dark:text-yellow-300 border-yellow-300 dark:border-yellow-700',
+    '生活日誌': 'bg-pink-100 text-black dark:bg-pink-900/30 dark:text-pink-300 border-pink-300 dark:border-pink-700',
+    '讀書筆記與心得': 'bg-indigo-100 text-black dark:bg-indigo-900/30 dark:text-indigo-300 border-indigo-300 dark:border-indigo-700',
+    '技術筆記': 'bg-red-100 text-black dark:bg-red-900/30 dark:text-red-300 border-red-300 dark:border-red-700',
+  };
+  return colorMap[categoryName] || 'bg-gray-100 text-black dark:bg-gray-900/30 dark:text-gray-300 border-gray-300 dark:border-gray-700';
 }
 
 export default async function PostPage({
@@ -97,7 +113,10 @@ export default async function PostPage({
             <header className="mb-6">
               {/* Categories and Tags */}
               <div className="flex items-center gap-4 mb-6">
-                <span className="px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full border border-primary/20">
+                <span className={cn(
+                  "px-4 py-2 text-sm font-medium rounded-full border",
+                  getCategoryColor(post.category)
+                )}>
                   {post.category}
                 </span>
                 {post.tags.length > 0 && (

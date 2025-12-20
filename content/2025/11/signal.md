@@ -6,7 +6,8 @@ tags:
 categories:
   - ntu-life
 slug: signal
-coverImage: 'https://img.waynspace.com/2025/11/signal/575298373_17847267138598054_3616706357568092189_n.webp'
+coverImage: >-
+  https://img.waynspace.com/2025/11/signal/575298373_17847267138598054_3616706357568092189_n.webp
 author:
   name: Wei-Ting Liu
   email: wayntingliu@gmail.com
@@ -16,6 +17,7 @@ seo:
     - 台大資管
     - 臺大資管
     - 大學考試
+summary: 考試考了這麼多次才發現這個信號
 ---
 
 昨天發下了所有的期中考成績，可以說是一踏糊塗吧，蠻難想像三科（對我其實只考三科）的狀態下還都平均低了一段距離（都大約十分以內），平均太容易受極低的分數影響，所以我的分數比例會更後面點。

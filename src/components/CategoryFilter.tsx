@@ -36,7 +36,7 @@ const categoryColors: Record<string, {
 }> = {
   '台大資管生活': {
     bg: 'bg-blue-50 dark:bg-blue-950/30',
-    text: 'text-blue-700 dark:text-blue-300',
+    text: 'text-black dark:text-blue-300',
     border: 'border-blue-300 dark:border-blue-700',
     hoverBg: 'hover:bg-blue-100 dark:hover:bg-blue-900/50',
     hoverBorder: 'hover:border-blue-400 dark:hover:border-blue-600',
@@ -46,7 +46,7 @@ const categoryColors: Record<string, {
   },
   '科學班生活': {
     bg: 'bg-purple-50 dark:bg-purple-950/30',
-    text: 'text-purple-700 dark:text-purple-300',
+    text: 'text-black dark:text-purple-300',
     border: 'border-purple-300 dark:border-purple-700',
     hoverBg: 'hover:bg-purple-100 dark:hover:bg-purple-900/50',
     hoverBorder: 'hover:border-purple-400 dark:hover:border-purple-600',
@@ -56,7 +56,7 @@ const categoryColors: Record<string, {
   },
   '攝影筆記': {
     bg: 'bg-green-50 dark:bg-green-950/30',
-    text: 'text-green-700 dark:text-green-300',
+    text: 'text-black dark:text-green-300',
     border: 'border-green-300 dark:border-green-700',
     hoverBg: 'hover:bg-green-100 dark:hover:bg-green-900/50',
     hoverBorder: 'hover:border-green-400 dark:hover:border-green-600',
@@ -66,7 +66,7 @@ const categoryColors: Record<string, {
   },
   '城市漫步': {
     bg: 'bg-orange-50 dark:bg-orange-950/30',
-    text: 'text-orange-700 dark:text-orange-300',
+    text: 'text-black dark:text-orange-300',
     border: 'border-orange-300 dark:border-orange-700',
     hoverBg: 'hover:bg-orange-100 dark:hover:bg-orange-900/50',
     hoverBorder: 'hover:border-orange-400 dark:hover:border-orange-600',
@@ -76,7 +76,7 @@ const categoryColors: Record<string, {
   },
   '生活日誌': {
     bg: 'bg-pink-50 dark:bg-pink-950/30',
-    text: 'text-pink-700 dark:text-pink-300',
+    text: 'text-black dark:text-pink-300',
     border: 'border-pink-300 dark:border-pink-700',
     hoverBg: 'hover:bg-pink-100 dark:hover:bg-pink-900/50',
     hoverBorder: 'hover:border-pink-400 dark:hover:border-pink-600',
@@ -86,7 +86,7 @@ const categoryColors: Record<string, {
   },
   '讀書筆記與心得': {
     bg: 'bg-indigo-50 dark:bg-indigo-950/30',
-    text: 'text-indigo-700 dark:text-indigo-300',
+    text: 'text-black dark:text-indigo-300',
     border: 'border-indigo-300 dark:border-indigo-700',
     hoverBg: 'hover:bg-indigo-100 dark:hover:bg-indigo-900/50',
     hoverBorder: 'hover:border-indigo-400 dark:hover:border-indigo-600',
@@ -96,7 +96,7 @@ const categoryColors: Record<string, {
   },
   '技術筆記': {
     bg: 'bg-red-50 dark:bg-red-950/30',
-    text: 'text-red-700 dark:text-red-300',
+    text: 'text-black dark:text-red-300',
     border: 'border-red-300 dark:border-red-700',
     hoverBg: 'hover:bg-red-100 dark:hover:bg-red-900/50',
     hoverBorder: 'hover:border-red-400 dark:hover:border-red-600',

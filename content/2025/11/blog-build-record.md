@@ -4,10 +4,9 @@ date: 2025-11-16T00:00:00.000Z
 tags:
   - daily-notes
 categories:
-  - "tech-notes"
+  - tech-notes
 slug: blog-build-record
-coverImage: >-
-  https://img.waynspace.com/2025/11/blog-build-record/image.webp
+coverImage: 'https://img.waynspace.com/2025/11/blog-build-record/image.webp'
 author:
   name: Wei-Ting Liu
   email: wayntingliu@gmail.com
@@ -18,6 +17,7 @@ seo:
     - 台大資管
     - 臺大資管
     - 科學班
+summary: '部落格建置轉換心得，從 wix, blogger, wordpress 到現在的 Next.js 加上 Cloudflare'
 ---
 
 ## Summary

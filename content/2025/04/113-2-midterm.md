@@ -1,12 +1,15 @@
 ---
-title: "每一個經驗，都是等待被串起的節點（期中考...）"
-date: Tue Apr 15 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 每一個經驗，都是等待被串起的節點（期中考...）
+date: 'Tue Apr 15 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "daily-notes"
+  - daily-notes
 categories:
-  - "personal-journal"
-coverImage: "https://img.waynspace.com/2025/04/113-2-midterm/1744021961733.webp"
-slug: "113-2-midterm"
+  - personal-journal
+coverImage: 'https://img.waynspace.com/2025/04/113-2-midterm/1744021961733.webp'
+slug: 113-2-midterm
+summary: >-
+  —— 大一下第八週，從吃飯、寫作業到未來選擇的碎碎念 三餐連吃 禮拜一的午餐、晚餐跟禮拜二的早餐都跟同一群人一起吃。
+  很特殊的體驗，說實話挺開心的。大家在其他時間自行忙碌，然後在吃飯時聚在一起聊天休息放鬆。我覺得這樣比自己在宿舍看影片好多了，有感到真正的放鬆，而不是一直接收社群媒體的資訊刺激。
 ---
 
 

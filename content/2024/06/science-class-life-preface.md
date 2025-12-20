@@ -1,12 +1,16 @@
 ---
-title: "科學班生活 - 前言"
-date: Fri Jun 14 2024 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 科學班生活 - 前言
+date: 'Fri Jun 14 2024 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "self-growth"
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2024/06/science-class-life-preface/1120805-1.webp"
-slug: "science-class-life-preface"
+  - science-class-journal
+coverImage: 'https://img.waynspace.com/2024/06/science-class-life-preface/1120805-1.webp'
+slug: science-class-life-preface
+summary: >-
+  自我介紹 我是劉威廷，畢業於113級雄中科學班，今年剛畢業並正取台大資管。   （但現在要大二了，下面的文字是當年寫的）  
+  一路受到資優教育。國小資優班，國中數理資優班，高中是科學班。 可以說是不務正業的科學班學生，目前仍在思考怎麼考進來科學班的。  
+  雖然有些格格不入，卻也如魚得水。
 ---
 
 

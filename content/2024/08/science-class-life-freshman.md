@@ -1,12 +1,15 @@
 ---
-title: "科學班生活 - 高一高二"
-date: Thu Aug 15 2024 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: "科學班生活 -\_高一高二"
+date: 'Thu Aug 15 2024 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "self-growth"
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2024/08/science-class-life-freshman/1120428-3.webp"
-slug: "science-class-life-freshman"
+  - science-class-journal
+coverImage: 'https://img.waynspace.com/2024/08/science-class-life-freshman/1120428-3.webp'
+slug: science-class-life-freshman
+summary: >-
+  高中課業 以未來的角度檢視過去，會發現課業難度並沒有超常的困難，純粹是當時的自己過於脆弱與沒自信。  
+  但有領悟總是好事，相信上大學後的適應期會因為這樣的經歷而更加奮力趕上課程進度。
 ---
 
 

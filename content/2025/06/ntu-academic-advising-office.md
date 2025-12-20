@@ -1,13 +1,17 @@
 ---
-title: "台大學習規劃辦公室 預約流程與心得"
-date: Sat Jun 14 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 台大學習規劃辦公室 預約流程與心得
+date: 'Sat Jun 14 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "daily-notes"
-  - "self-growth"
+  - daily-notes
+  - self-growth
 categories:
-  - "ntu-life"
-coverImage: "https://img.waynspace.com/2025/06/ntu-academic-advising-office/IMG_20250414_135059.webp"
-slug: "ntu-academic-advising-office"
+  - ntu-life
+coverImage: >-
+  https://img.waynspace.com/2025/06/ntu-academic-advising-office/IMG_20250414_135059.webp
+slug: ntu-academic-advising-office
+summary: >-
+  <figure> <figcaption> 辦公室本人 </figcaption> </figure> Medium版本點我
+  是今年的四月去的（對已經過了一段時間了），來記錄一下這個校內資源。   正如其名，是讓你能規劃自己的學習路徑。
 ---
 
 

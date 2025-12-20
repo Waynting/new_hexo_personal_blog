@@ -1,13 +1,14 @@
 ---
-title: "科學班生活-大學修課"
-date: Wed Jul 02 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 科學班生活-大學修課
+date: 'Wed Jul 02 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "daily-notes"
-  - "self-growth"
+  - daily-notes
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2025/07/science-class-life-unicourse/1121213-1.webp"
-slug: "science-class-life-unicourse"
+  - science-class-journal
+coverImage: 'https://img.waynspace.com/2025/07/science-class-life-unicourse/1121213-1.webp'
+slug: science-class-life-unicourse
+summary: 在通過資格考後，到了高三便能到合作的大學修課。   然後有一件還算不錯的事情，我們高三以後就不需要考段考了，所以這些時間都是在家公假。
 ---
 
 

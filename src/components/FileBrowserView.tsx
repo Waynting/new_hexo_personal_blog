@@ -276,23 +276,39 @@ export default function FileBrowserView({ posts, categories }: FileBrowserViewPr
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* 檢查是否全部是文章 */}
         {currentContent.length > 0 && currentContent.every(item => item.type === 'post') ? (
-          // 卡片網格佈局 - 顯示文章
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {currentContent.map((item) => {
-              if (item.type === 'post') {
-                return (
-                  <PostCard
-                    key={item.post.slug}
-                    post={item.post}
-                    aspect="landscape"
-                    fontSize="normal"
-                    fontWeight="semibold"
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
+          <>
+            {/* 卡片網格佈局 - 顯示文章 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {currentContent.map((item) => {
+                if (item.type === 'post') {
+                  return (
+                    <PostCard
+                      key={item.post.slug}
+                      post={item.post}
+                      aspect="landscape"
+                      fontSize="normal"
+                      fontWeight="semibold"
+                    />
+                  );
+                }
+                return null;
+              })}
+            </div>
+            {/* 回到上一層按鈕 */}
+            {currentPath.length > 0 && (
+              <div className="mt-8 flex justify-center">
+                <button
+                  onClick={() => {
+                    setCurrentPath(currentPath.slice(0, -1));
+                  }}
+                  className="px-6 py-3 rounded-lg text-base font-medium transition-all border-2 bg-background text-foreground border-border hover:bg-muted hover:border-primary flex items-center gap-2"
+                >
+                  <span>←</span>
+                  <span>回到上一層</span>
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           // 列表佈局 - 顯示資料夾
           <div className="bg-background rounded-lg border-2 border-border shadow-lg overflow-hidden">

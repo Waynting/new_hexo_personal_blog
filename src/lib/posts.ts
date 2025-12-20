@@ -72,6 +72,20 @@ function extractFirstImage(content: string): string | null {
   return match ? match[1] : null
 }
 
+// 获取文章摘要，优先级：summary > seo.metaDescription > extractExcerpt(content)
+function getExcerpt(data: any, content: string): string {
+  // 优先使用 frontmatter 中的 summary
+  if (data.summary) {
+    return data.summary
+  }
+  // 其次使用 seo.metaDescription
+  if (data.seo?.metaDescription) {
+    return data.seo.metaDescription
+  }
+  // 最后从内容中提取
+  return extractExcerpt(content)
+}
+
 // 獲取所有分類
 export async function getAllCategories(): Promise<Category[]> {
   const posts = await getAllPosts()
@@ -121,7 +135,7 @@ export async function getAllPosts(): Promise<Post[]> {
       const articleSlug = data.slug || path.basename(file, path.extname(file))
       // slug 使用完整路径格式 YYYY/MM/articleSlug，包含日期路径以便重定向和路由匹配
       const slug = year && month ? `${year}/${month}/${articleSlug}` : articleSlug
-      const excerpt = extractExcerpt(content)
+      const excerpt = getExcerpt(data, content)
       const readTime = calculateReadTime(content)
 
       // 如果没有设置封面图，尝试从内容中提取第一张图片
@@ -242,7 +256,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     // slug 使用完整路径格式 YYYY/MM/articleSlug，包含日期路径以便重定向和路由匹配
     const slug = year && month ? `${year}/${month}/${articleSlug}` : articleSlug
 
-    const excerpt = extractExcerpt(content)
+    const excerpt = getExcerpt(data, content)
     const readTime = calculateReadTime(content)
 
     // 轉換 markdown 為 HTML
@@ -363,7 +377,7 @@ export async function getPostsByYearMonth(year: string, month: string): Promise<
       const articleSlug = data.slug || path.basename(file, path.extname(file))
       // slug 使用完整路径格式 YYYY/MM/articleSlug，包含日期路径以便重定向和路由匹配
       const slug = year && month ? `${year}/${month}/${articleSlug}` : articleSlug
-      const excerpt = extractExcerpt(content)
+      const excerpt = getExcerpt(data, content)
       const readTime = calculateReadTime(content)
 
       // 如果没有设置封面图，尝试从内容中提取第一张图片

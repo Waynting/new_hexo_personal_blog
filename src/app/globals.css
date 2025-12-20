@@ -430,6 +430,18 @@ body {
   }
 }
 
+/* 分類標籤文字顏色 - 確保淺色模式下使用深色文字 */
+:root:not(.dark) [class*="bg-blue-100"],
+:root:not(.dark) [class*="bg-purple-100"],
+:root:not(.dark) [class*="bg-green-100"],
+:root:not(.dark) [class*="bg-yellow-100"],
+:root:not(.dark) [class*="bg-pink-100"],
+:root:not(.dark) [class*="bg-indigo-100"],
+:root:not(.dark) [class*="bg-red-100"],
+:root:not(.dark) [class*="bg-gray-100"] {
+  color: #000000 !important;
+}
+
 /* Tailwind CSS line-clamp utility */
 .line-clamp-3 {
   overflow: hidden;

@@ -1,14 +1,18 @@
 ---
-title: "What I Learned from 'How to Start a Startup'"
-date: Sun Jul 06 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: What I Learned from 'How to Start a Startup'
+date: 'Sun Jul 06 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "uni-life"
-  - "self-growth"
+  - uni-life
+  - self-growth
 categories:
-  - "ntu-life"
-  - "tech-notes"
-coverImage: "https://img.waynspace.com/2025/07/how-to-start-a-startup-notes/How-to-start-a-start_Photo.webp"
-slug: "how-to-start-a-startup-notes"
+  - ntu-life
+  - tech-notes
+coverImage: >-
+  https://img.waynspace.com/2025/07/how-to-start-a-startup-notes/How-to-start-a-start_Photo.webp
+slug: how-to-start-a-startup-notes
+summary: >-
+  <figure> <figcaption> A kind of mess </figcaption> </figure>
+  這個週末，我把被譽為「創業界聖經」的 Stanford 經典課程《How to Start a Startup》完整走過一輪。
 ---
 
 

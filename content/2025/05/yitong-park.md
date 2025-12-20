@@ -1,13 +1,16 @@
 ---
-title: "20250515（四）伊通公園"
-date: Mon May 19 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 20250515（四）伊通公園
+date: 'Mon May 19 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "daily-notes"
-  - "life-philosophy"
+  - daily-notes
+  - life-philosophy
 categories:
-  - "personal-journal"
-coverImage: "https://img.waynspace.com/2025/05/yitong-park/IMG_20250514_182905.webp"
-slug: "yitong-park"
+  - personal-journal
+coverImage: 'https://img.waynspace.com/2025/05/yitong-park/IMG_20250514_182905.webp'
+slug: yitong-park
+summary: >-
+  20140222（六） 我和媽媽來到台北，似乎是來參加姊姊的班親會。  
+  「松江南京」，這個詞一直卡在我的腦袋中直到國中，雖然就是個普通的捷運站名。此時松山新店線尚未全線通車（這年底才通車），這名稱深深地刻在我記憶中，對我來說相當難忘，但也不清楚背後的涵義。
 ---
 
 

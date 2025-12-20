@@ -1,12 +1,15 @@
 ---
-title: "20250504 新兒童樂園-攝影日誌"
-date: Fri May 16 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 20250504 新兒童樂園-攝影日誌
+date: 'Fri May 16 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "street-photography"
+  - street-photography
 categories:
-  - "photography-notes"
-coverImage: "https://img.waynspace.com/2025/05/20250505photography/IMG_20250504_154427.webp"
-slug: "20250505photography"
+  - photography-notes
+coverImage: 'https://img.waynspace.com/2025/05/20250505photography/IMG_20250504_154427.webp'
+slug: 20250505photography
+summary: >-
+  前情提要 這是我第一次特地且正式地幫人拍照。很榮幸我的兩位朋友相當信任我的攝影技術，所以願意擔任我的模特兒（我甚至拿不出成品集給他們看…）。  
+  於是在這天特別來到新兒童樂園拍照，說是如此，其實更像是敘舊，這是我們上台北念書後第一次見面，和熟悉的人出門真好。
 ---
 
 

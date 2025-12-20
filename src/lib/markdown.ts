@@ -13,17 +13,13 @@ export async function markdownToHtml(markdown: string) {
     '<img src="$1" alt="" />'
   );
 
-  // 预处理：将独立一行的 `---` 替换为 HTML <hr> 标签
-  // 匹配模式：独立一行的 `---`，前后可以有空格
-  processedMarkdown = processedMarkdown.replace(
-    /(^|\n)\s*---\s*(\n|$)/gm,
-    '$1<hr>$2'
-  );
+  // 讓 remark 自己處理 `---` 作為水平分隔線，不需要預處理替換
+  // remark 會自動將 `---` 轉換為 <hr> 標籤，這樣可以確保後續內容正確解析
 
   const result = await remark()
-    .use(remarkGfm) // GitHub Flavored Markdown
+    .use(remarkGfm) // GitHub Flavored Markdown（支援 `---` 作為水平分隔線）
     .use(remarkRehype, { allowDangerousHtml: true }) // 转换为 rehype (HTML AST)
-    .use(rehypeRaw) // 允许在 Markdown 中使用原始 HTML（保留 <hr> 等标签）
+    .use(rehypeRaw) // 允许在 Markdown 中使用原始 HTML（保留 <img> 等标签）
     .use(rehypeStringify, { allowDangerousHtml: true }) // 转换为 HTML 字符串
     .process(processedMarkdown);
 

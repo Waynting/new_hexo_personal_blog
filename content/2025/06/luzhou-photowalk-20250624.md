@@ -1,14 +1,18 @@
 ---
-title: "蘆洲小遊記 20250624（二）"
-date: Mon Jun 30 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 蘆洲小遊記 20250624（二）
+date: 'Mon Jun 30 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "city-walk"
-  - "street-photography"
+  - city-walk
+  - street-photography
 categories:
-  - "city-walk"
-  - "personal-journal"
-coverImage: "https://img.waynspace.com/2025/06/luzhou-photowalk-20250624/LIU_9208.webp"
-slug: "luzhou-photowalk-20250624"
+  - city-walk
+  - personal-journal
+coverImage: 'https://img.waynspace.com/2025/06/luzhou-photowalk-20250624/LIU_9208.webp'
+slug: luzhou-photowalk-20250624
+summary: >-
+  With Nikon D750 + 85 f1.8 D    過去的三個多月癡迷在 50 f1.4 AI
+  的大光圈散景和練習自動對焦上，但漸漸發現想要換個口味。   防潮箱中剛好有個我從未用過的85，所以便做為這次小小旅行的選擇。 啟程
+  公館上車、古亭轉車，挺幸運的直接搭到往蘆洲的列車。
 ---
 
 

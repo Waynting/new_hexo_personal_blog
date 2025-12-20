@@ -1,13 +1,17 @@
 ---
-title: "台大113-2修課心得"
-date: Sat Jun 21 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 台大113-2修課心得
+date: 'Sat Jun 21 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "uni-life"
-  - "self-growth"
+  - uni-life
+  - self-growth
 categories:
-  - "ntu-life"
-coverImage: "https://img.waynspace.com/2025/06/113-2-coursesreview/b6e113e087a514f38978a8c01ba3dda3.webp"
-slug: "113-2-coursesreview"
+  - ntu-life
+coverImage: >-
+  https://img.waynspace.com/2025/06/113-2-coursesreview/b6e113e087a514f38978a8c01ba3dda3.webp
+slug: 113-2-coursesreview
+summary: >-
+  既然成績都出來了，那就來寫這學期修過的課吧   Medium好讀版點我 普通心理學 此為 通識 A58\   授課老師：葉俊毅   上課時間：一 234  
+  學分數：3   甜度：8.5/10   涼度：8/10   我的成績：A+ 【心得】 推。加分作業能直接前進一個等地，我原本84.
 ---
 
 

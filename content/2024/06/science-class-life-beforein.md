@@ -1,12 +1,14 @@
 ---
-title: "科學班生活 - 國三入學前"
-date: Fri Jun 28 2024 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 科學班生活 - 國三入學前
+date: 'Fri Jun 28 2024 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "self-growth"
+  - self-growth
 categories:
-  - "science-class-journal"
-coverImage: "https://img.waynspace.com/2024/06/science-class-life-beforein/IMG_20240628_201711_1-1.webp"
-slug: "science-class-life-beforein"
+  - science-class-journal
+coverImage: >-
+  https://img.waynspace.com/2024/06/science-class-life-beforein/IMG_20240628_201711_1-1.webp
+slug: science-class-life-beforein
+summary: 這篇文主要是我在入學前的歷程，其中包括認識到科學班、準備、疫情、補習班的內容。   雖然此刻還沒入學，但我自己覺得科學班生活從確定錄取後就算開始了。
 ---
 
 

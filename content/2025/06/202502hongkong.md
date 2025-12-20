@@ -1,15 +1,18 @@
 ---
-title: "2025寒假香港遊記"
-date: Wed Jun 11 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 2025寒假香港遊記
+date: 'Wed Jun 11 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "city-walk"
-  - "daily-notes"
-  - "street-photography"
+  - city-walk
+  - daily-notes
+  - street-photography
 categories:
-  - "city-walk"
-  - "personal-journal"
-coverImage: "https://img.waynspace.com/2025/06/202502hongkong/IMG_20250214_155025.webp"
-slug: "202502hongkong"
+  - city-walk
+  - personal-journal
+coverImage: 'https://img.waynspace.com/2025/06/202502hongkong/IMG_20250214_155025.webp'
+slug: 202502hongkong
+summary: >-
+  Day 1 0211 其實今天超級短的，因為是晚上7.50的飛機   花蓮起飛，提早了45分鐘到香港，但從降落到真的進到航廈還有一段時間。  
+  一下來就狂奔，希望能搭到公車。   最後有搭到，還差點沒搭上，我以為前面的人是排隊上車，但後來發現他們是要搭同一個位置的另一半車。
 ---
 
 

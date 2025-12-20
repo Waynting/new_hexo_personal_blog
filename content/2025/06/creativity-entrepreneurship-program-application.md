@@ -1,13 +1,18 @@
 ---
-title: "第十八屆創新創業學程申請紀錄"
-date: Fri Jun 27 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 第十八屆創新創業學程申請紀錄
+date: 'Fri Jun 27 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "uni-life"
-  - "self-growth"
+  - uni-life
+  - self-growth
 categories:
-  - "ntu-life"
-coverImage: "https://img.waynspace.com/2025/06/creativity-entrepreneurship-program-application/1dqJNmDFw87Pf4hTtbhwTEw.webp"
-slug: "creativity-entrepreneurship-program-application"
+  - ntu-life
+coverImage: >-
+  https://img.waynspace.com/2025/06/creativity-entrepreneurship-program-application/1dqJNmDFw87Pf4hTtbhwTEw.webp
+slug: creativity-entrepreneurship-program-application
+summary: >-
+  <figure> <figcaption> 一個奇妙的旅程 </figcaption> </figure> Medium好讀版點我
+  什麼是創新創業學程（創創學程）
+  本學程以於校園中推廣創意與創業相關學習、實踐、與輔導為宗旨，期能透過多元創意發想、跨領域創業知能、務實的商業設計與包容失敗的事業實踐過程...
 ---
 
 

@@ -1,14 +1,16 @@
 ---
-title: "淡水遊記 20250626（四）"
-date: Wed Jul 02 2025 08:00:00 GMT+0800 (Taiwan Standard Time)
+title: 淡水遊記 20250626（四）
+date: 'Wed Jul 02 2025 08:00:00 GMT+0800 (Taiwan Standard Time)'
 tags:
-  - "city-walk"
-  - "street-photography"
+  - city-walk
+  - street-photography
 categories:
-  - "city-walk"
-  - "personal-journal"
-coverImage: "https://img.waynspace.com/2025/07/tamsui-historic-sites-photography/LIU_9407.webp"
-slug: "tamsui-historic-sites-photography"
+  - city-walk
+  - personal-journal
+coverImage: >-
+  https://img.waynspace.com/2025/07/tamsui-historic-sites-photography/LIU_9407.webp
+slug: tamsui-historic-sites-photography
+summary: 無可救藥的說走就走大概會跟著我一輩子，一如既往的和陳柏宇一起吃午餐（暑假大家都回家了）。   然後聊到想出去走走，剛好提到淡水。
 ---
 
 
