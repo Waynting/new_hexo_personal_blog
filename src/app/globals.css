@@ -270,12 +270,35 @@ body {
   opacity: 0.8;
 }
 
-.article-content hr {
-  border: none;
-  border-top: 2px solid var(--border);
-  margin: 2.5rem auto;
-  width: 50%;
-  opacity: 0.8;
+/* 分隔線樣式 - 使用更具體的選擇器覆蓋 Tailwind prose */
+.article-content hr,
+.prose hr,
+.article-content .prose hr {
+  border: none !important;
+  border-top: 2px solid hsl(var(--border)) !important;
+  margin: 2.5rem auto !important;
+  width: 80% !important;
+  max-width: 600px !important;
+  opacity: 1 !important;
+  height: 2px !important;
+  background-color: transparent !important;
+  display: block !important;
+  color: hsl(var(--border)) !important;
+}
+
+/* 深色模式下使用更明顯的顏色（40% 亮度在深色背景上更明顯） */
+.dark .article-content hr,
+.dark .prose hr,
+.dark .article-content .prose hr {
+  border-top-color: hsl(0 0% 40%) !important;
+  color: hsl(0 0% 40%) !important;
+}
+
+/* 淺色模式下確保可見 */
+:root:not(.dark) .article-content hr,
+:root:not(.dark) .prose hr,
+:root:not(.dark) .article-content .prose hr {
+  border-top-color: hsl(var(--border)) !important;
 }
 
 /* WordPress 列表樣式 */
@@ -300,13 +323,34 @@ body {
 
 /* 引用區塊 */
 .article-content blockquote {
-  border-left: 4px solid var(--primary);
-  padding: 1.5rem;
-  margin: 2rem 0;
+  border-left: 4px solid hsl(var(--primary));
+  padding: 0.75rem 1rem 0.75rem 1.25rem;
+  margin: 1.5rem 0;
   font-style: italic;
-  background-color: var(--secondary);
+  background-color: hsl(var(--secondary));
   border-radius: 0.25rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* 引用區塊內的段落樣式 */
+.article-content blockquote p {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.article-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* 引用區塊內的第一個元素 */
+.article-content blockquote > *:first-child {
+  margin-top: 0;
+}
+
+/* 引用區塊內的最後一個元素 */
+.article-content blockquote > *:last-child {
+  margin-bottom: 0;
 }
 
 /* 程式碼樣式 */

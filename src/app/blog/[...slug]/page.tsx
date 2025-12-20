@@ -169,12 +169,13 @@ export default async function PostPage({
                     prose-strong:text-foreground prose-strong:font-semibold
                     prose-code:text-accent-foreground prose-code:bg-accent prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm
                     prose-pre:bg-muted prose-pre:text-muted-foreground prose-pre:border prose-pre:border-border
-                    prose-blockquote:border-l-primary prose-blockquote:bg-muted/50 prose-blockquote:pl-6 prose-blockquote:py-2 prose-blockquote:italic prose-blockquote:text-muted-foreground
+                    prose-blockquote:border-l-primary prose-blockquote:bg-muted/50 prose-blockquote:pl-4 prose-blockquote:pr-4 prose-blockquote:py-3 prose-blockquote:my-6 prose-blockquote:italic prose-blockquote:text-foreground prose-blockquote:opacity-95
                     prose-img:rounded-lg prose-img:shadow-lg prose-img:border prose-img:border-border
                     prose-ul:text-foreground prose-ol:text-foreground prose-li:text-foreground
                     prose-table:border-collapse prose-table:border prose-table:border-border
                     prose-th:border prose-th:border-border prose-th:bg-muted prose-th:px-4 prose-th:py-2
-                    prose-td:border prose-td:border-border prose-td:px-4 prose-td:py-2"
+                    prose-td:border prose-td:border-border prose-td:px-4 prose-td:py-2
+                    prose-hr:border-border prose-hr:border-t-2 prose-hr:my-10 prose-hr:opacity-100 prose-hr:w-4/5 prose-hr:max-w-2xl"
                   dangerouslySetInnerHTML={{ __html: processedContent }}
                 />
 
